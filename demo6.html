@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>html5事件</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="scripts/public.js"></script>
+    <script src="scripts/demo6.js"></script>
+    <style>
+        #myDiv {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            background-color: #f33;
+        }
+        ul#myMenu{
+            list-style-type:none;
+            padding:0;
+            margin:0;
+            position:absolute;
+            visibility:hidden;
+            background-color: #0ff;
+        }
+        ul#myMenu li a{
+            display:block;
+            min-width:120px;
+            height:30px;
+            line-height:30px;
+            vertical-align:middle;
+            border:1px solid #333;
+            color:#fff;
+            text-decoration:none;
+        }
+        ul#myMenu li a:hover{
+            background-color: #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="myDiv">contextmenu事件</div>
+    <ul id="myMenu">
+        <li><a href="#">上下文菜单一</a></li>
+        <li><a href="#">上下文菜单二</a></li>
+        <li><a href="#">上下文菜单三</a></li>
+        <li><a href="#">上下文菜单四</a></li>
+    </ul>
+    
+</body>
+
+</html>
