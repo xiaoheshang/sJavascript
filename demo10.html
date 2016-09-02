@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>模拟鼠标事件</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="myDiv">sssssssssssssss</div>
+    <button id="myBtn" type="button" onclick="alert('模拟触发的事件')">模拟鼠标事件</button><br />
+    <button type="button" id="otherBtn">触发上面个按钮的点击事件</button>
+    <button type="button" id="btn4">触发模拟键盘事件</button><br />
+    <input type="text" id="text1" onkeydown="console.log(event);" value="" />
+    <br />
+    <button type="button" id="btn5">触发自定义事件</button>
+    <button type="button" id="btn6" onclick="alert('模拟事件');">IE中的模拟事件</button>
+    <script src="scripts/public.js"></script>
+    <script src="scripts/demo10.js"></script>
+
+</body>
+
+</html>
